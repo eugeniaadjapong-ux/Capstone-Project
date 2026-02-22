@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+    <h1>Weather Forecast App</h1>
+</header>
+
+<main class="container">
+
+    <section class="search-section">
+        <input type="text" id="cityInput" placeholder="Enter city name">
+        <button onclick="searchWeather()">Search</button>
+    </section>
+
+    <section id="weatherCard" class="weather-card">
+        <h2 id="cityName"></h2>
+        <p id="temperature"></p>
+        <p id="condition"></p>
+    </section>
+
+    <section id="errorMessage" class="error"></section>
+
+</main>
+
+<footer>
+    <p>Weather App Capstone Project</p>
+</footer>
+
+    <script src="js/app.js"></script>
+</body>
+</body>
+</html>
