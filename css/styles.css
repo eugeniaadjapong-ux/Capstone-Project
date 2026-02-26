@@ -65,6 +65,14 @@ button:hover{
     border-radius: 8px;
 }
 
+
+ .weather-card p,
+.weather-card h2{
+    color:black;
+}
+
+
+
 .error{
     color: red;
 }
