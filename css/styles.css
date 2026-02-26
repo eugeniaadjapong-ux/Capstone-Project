@@ -1,85 +1,49 @@
 body{
     font-family: Arial, sans-serif;
-    margin:0;
-    background:#f4f8ff;
+    background-color: #f2f6ff;
+    text-align: center;
+    margin: 0;
 }
 
-/* Header */
-
-header{
-    background:#1eafcc;
-    color:white;
-    text-align:center;
-    padding:15px;
+h1{
+    background-color: #1eafcc;
+    color: white;
+    padding: 15px;
+    margin: 0;
 }
-
-/* Container */
 
 .container{
-    padding:20px;
-    text-align:center;
+    margin-top: 30px;
 }
 
-/* Search Section */
-
-.search-section input{
-    padding:10px;
-    width:60%;
-    max-width:400px;
+input{
+    padding: 8px;
+    width: 200px;
 }
 
-.search-section button{
-    padding:10px 15px;
-    margin-left:10px;
-    background:#1eafcc;
-    color:#6C757D;
-    border:none;
-    cursor:pointer;
+button{
+    padding: 8px 12px;
+    background-color: #1eafcc;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
-/* Weather Card */
+button:hover{
+    background-color: #168aa3;
+}
 
 .weather-card{
-    margin-top:30px;
-    background:#6C757D;
-    padding:20px;
-    border-radius:10px;
-    display:none;
+    margin-top: 20px;
+    background-color: white;
+    display: none;
+    padding: 20px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
 }
-
-/* Error Message */
 
 .error{
-    color:red;
-    margin-top:20px;
-}
-
-/* Footer */
-
-footer{
-    background:#1eafcc;
-    color:#6C757D;
-    text-align:center;
-    padding:15px;
-    position:fixed;
-    bottom:0;
-    width:100%;
-}
-
-/* Responsive Design */
-
-@media(max-width:600px){
-    .search-section input{
-        width:100%;
-        margin-bottom:10px;
-    }
-
-    .search-section button{
-        width:100%;
-        margin-left:0;
-    }
-
-    footer{
-        position:relative;
-    }
+    color: red;
 }
